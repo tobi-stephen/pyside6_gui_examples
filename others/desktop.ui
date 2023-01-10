@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>534</width>
+    <height>556</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QWidget" name="widget" native="true">
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0">
+        <widget class="QSplitter" name="splitter_2">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <widget class="QWidget" name="widget_2" native="true">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="autoFillBackground">
+           <bool>true</bool>
+          </property>
+          <widget class="QPushButton" name="buttonMenu">
+           <property name="geometry">
+            <rect>
+             <x>21</x>
+             <y>1</y>
+             <width>62</width>
+             <height>19</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Menu</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="labelTitle">
+           <property name="geometry">
+            <rect>
+             <x>199</x>
+             <y>1</y>
+             <width>24</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Home</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="buttonRmenu">
+           <property name="geometry">
+            <rect>
+             <x>338</x>
+             <y>1</y>
+             <width>81</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="layoutDirection">
+            <enum>Qt::LeftToRight</enum>
+           </property>
+           <property name="text">
+            <string>RMenu</string>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QSplitter" name="splitter">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <widget class="QWidget" name="widget" native="true">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="autoFillBackground">
+            <bool>true</bool>
+           </property>
+           <widget class="QPushButton" name="buttonHome">
+            <property name="geometry">
+             <rect>
+              <x>7</x>
+              <y>7</y>
+              <width>62</width>
+              <height>19</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>Home</string>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="buttonOne">
+            <property name="geometry">
+             <rect>
+              <x>7</x>
+              <y>31</y>
+              <width>62</width>
+              <height>19</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>One</string>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="buttonTwo">
+            <property name="geometry">
+             <rect>
+              <x>7</x>
+              <y>55</y>
+              <width>62</width>
+              <height>19</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>Two</string>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="buttonAbout">
+            <property name="geometry">
+             <rect>
+              <x>7</x>
+              <y>301</y>
+              <width>62</width>
+              <height>19</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>About</string>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="buttonHelp">
+            <property name="geometry">
+             <rect>
+              <x>7</x>
+              <y>325</y>
+              <width>62</width>
+              <height>19</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>Help</string>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QStackedWidget" name="stackedWidget">
+           <property name="autoFillBackground">
+            <bool>true</bool>
+           </property>
+           <property name="currentIndex">
+            <number>0</number>
+           </property>
+           <widget class="QWidget" name="pageHome">
+            <property name="autoFillBackground">
+             <bool>true</bool>
+            </property>
+            <widget class="QLabel" name="label">
+             <property name="geometry">
+              <rect>
+               <x>60</x>
+               <y>90</y>
+               <width>81</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>HOME</string>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QWidget" name="pageOne">
+            <property name="autoFillBackground">
+             <bool>true</bool>
+            </property>
+            <widget class="QLabel" name="label_2">
+             <property name="geometry">
+              <rect>
+               <x>90</x>
+               <y>80</y>
+               <width>101</width>
+               <height>41</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>One</string>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QWidget" name="pageTwo">
+            <widget class="QLabel" name="label_3">
+             <property name="geometry">
+              <rect>
+               <x>80</x>
+               <y>80</y>
+               <width>71</width>
+               <height>41</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Two</string>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QWidget" name="pageAbout">
+            <widget class="QLabel" name="label_4">
+             <property name="geometry">
+              <rect>
+               <x>70</x>
+               <y>120</y>
+               <width>91</width>
+               <height>41</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>About</string>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QWidget" name="pageHelp">
+            <widget class="QLabel" name="label_5">
+             <property name="geometry">
+              <rect>
+               <x>70</x>
+               <y>100</y>
+               <width>81</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Help</string>
+             </property>
+            </widget>
+           </widget>
+          </widget>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>534</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionHome"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuAbout">
+    <property name="title">
+     <string>About</string>
+    </property>
+    <addaction name="actionAbout_Qt"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuAbout"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionHome">
+   <property name="text">
+    <string>Home</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionAbout_Qt">
+   <property name="text">
+    <string>About Qt</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
